@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body.background{
+    background-color: rgb(214, 236, 247);
+    font-family: sans-serif;
+}
+.form-cad{
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+}
+.card-cad{
+    box-shadow: 1px 1px 5px;
+    background-color: rgb(0, 140, 255);
+    padding: 20px;
+    border-radius: 5px;
+}
+.card-top-cad{
+    margin: 15px;
+    text-align: center;
+}
+.painel-cad{
+    padding: 5px;
+}
+.img-user-cad{
+    border-radius: 50px;
+    width: 70px;
+    box-shadow: 0px 0px 5px;
+}
+.card-group-cad > label{
+    margin: auto;
+    width: 210px;
+    display: block;
+}
+.card-group-cad > input{
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px;
+    border-bottom: 0px;
+    border-right: 0px;
+    outline: 0;
+    width: 200px;
+    height: 15px;
+    display: block;
+}
+button.btn-enviar{
+    margin: auto;
+    display: block;
+    width: 215px;
+    height: 35px;
+    border-radius: 50px;
+    outline: 0;
+    background:linear-gradient(to left, rgb(0, 174, 255), rgb(0, 92, 134));
+    color: white;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+}
+button.btn-enviar:hover{
+    background:linear-gradient(to left, rgb(0, 174, 255), rgb(1, 76, 110));
+}
+h2{
+    color: red;
+}
